@@ -1,0 +1,144 @@
+
+/* @media (max-width: 1440px) {} */
+/* @media (max-width: 1366px) {} */
+/* @media (max-width: 1320px) {} */
+/* @media (max-width: 1290px) {} */
+/* @media (max-width: 1140px) {} */
+@media (max-width: 1024px) {
+    .rightpods__item{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .rightpods__txt{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .leftpods__item{
+        flex-direction: column;
+    }
+    .leftpods__txt{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .centerpods__txt_two::before,
+    .centerpods__txt_one::after{
+        display: none;
+    }
+    .phones__card:nth-of-type(1),
+    .phones__card:nth-of-type(2),
+    .phones__card:nth-of-type(3){
+        margin-right: 30px;
+    }
+}
+/* @media (max-width: 992px) {} */
+@media (max-width: 768px) {
+    .nav{
+        padding: 10px 0;
+    }
+    .nav__list,
+    .nav__icons{
+        display: none;
+    }
+    .nav__menu{
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+    }
+    .nav__line{
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        position: relative;
+    }
+    .nav__line::before,
+    .nav__line::after{
+        content: '';
+        position: absolute;
+        top: -10px;
+        right: 0;
+        width: 80%;
+        height: 100%;
+        background: #fff;
+    }
+    .nav__line::after{
+        top: 10px;
+        width: 60%;
+    }
+    .centerpods__item{
+        flex-direction: column;
+    }
+    .centerpods__txt_one{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .centerpods__txt_two{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .phones__item{
+        overflow: auto;
+    }
+    .phones__card{
+        flex-shrink: 0;
+    }
+}
+/* @media (max-width: 736px) {} */
+/* @media (max-width: 734px) {} */
+/* @media (max-width: 684px) {} */
+/* @media (max-width: 667px) {} */
+@media (max-width: 640px){
+    .footer__icon{
+        margin-right: 10px;
+    }
+}
+@media (max-width:823px){
+    .centerpods__txt_one{
+        font-size: 18px;
+        max-width: 250px;
+        width: 100%;
+    }
+    .centerpods__txt_two{
+        font-size: 18px;
+        max-width: 250px;
+        width: 100%;
+    }
+    .centerpods__image{
+        margin: 0 20px;
+    }
+    .phones__item{
+        overflow: auto;
+    }
+    .phones__card{
+        flex-shrink: 0;
+    }
+}
+@media (max-width: 576px) {
+    .footer_container{
+        flex-direction: column;
+    }
+    .footer__nav{
+        padding: 30px 0;
+    }
+    .footer__link{
+        padding: 25px 30px;
+    }
+    .centerpods__img,
+    .leftpods__img,
+    .rightpods__img{
+        width: 100%;
+    }
+}
+@media (max-width: 414px) {
+    .header__title{
+        font-size: 50px;
+    }
+}
+/* @media (max-width: 412px) {} */
+/* @media (max-width: 375px) {} */
+/* @media (max-width: 360px) {} */
+@media (max-width: 320px) {
+    .footer__link{
+        padding: 25px 20px;
+    }
+}
